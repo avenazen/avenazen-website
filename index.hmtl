@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avenazen | Model Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    background:#000;
+    color:#fff;
+    font-family:Montserrat;
+}
+
+nav{
+    position:fixed;
+    width:100%;
+    padding:25px 60px;
+    background:rgba(0,0,0,0.7);
+    backdrop-filter:blur(10px);
+}
+
+nav h1{font-family:Playfair Display;letter-spacing:3px;}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h2{
+    font-family:Playfair Display;
+    font-size:70px;
+    letter-spacing:4px;
+}
+
+.hero p{
+    margin-top:10px;
+    font-size:20px;
+    color:#aaa;
+}
+
+.btn{
+    margin-top:30px;
+    padding:15px 40px;
+    border:1px solid white;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+.btn:hover{
+    background:white;
+    color:black;
+}
+
+.section{
+    padding:120px 15%;
+    text-align:center;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.gallery img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
+
+.stats{
+    line-height:2;
+    font-size:20px;
+}
+
+footer{
+    padding:40px;
+    text-align:center;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h1>AVENAZEN</h1>
+</nav>
+
+<section class="hero">
+<h2>AVENAZEN</h2>
+<p>Fashion • Commercial • Fitness Model</p>
+<a href="#portfolio" class="btn">View Portfolio</a>
+</section>
+
+<section id="portfolio" class="section">
+<h2>PORTFOLIO</h2>
+<p>Replace images with your own photos</p>
+
+<div class="gallery">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+</div>
+</section>
+
+<section class="section">
+<h2>ABOUT</h2>
+<p style="max-width:600px;margin:auto;margin-top:20px;">
+USA based model working in fashion, commercial and fitness campaigns.
+Available for international bookings and creative collaborations.
+</p>
+</section>
+
+<section class="section">
+<h2>BOOKING</h2>
+<p class="stats">
+Email: Avenazen@gmail.com<br>
+Instagram: @Avenazenn
+</p>
+</section>
+
+<footer>
+© 2026 Avenazen
+</footer>
+
+</body>
+</html>
